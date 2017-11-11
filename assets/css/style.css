@@ -1,0 +1,21 @@
+body {
+	text-align: center;
+}
+
+#createDiv {
+	height: 98vh;
+	padding: .5vh 0vh .5vh 0vh;
+	display: inline-block;
+}
+
+#createSvg {
+	height: 100%;
+}
+
+svg .cls-7 {
+	fill: transparent;
+}
+
+svg .cls-7:hover {
+	fill: url(#Floral_Vines);
+}
