@@ -35,6 +35,7 @@ p {
 /*--------------------------------- image -----------------------------*/
 #createDiv {
 	height: 98vh;
+  width: 100%;
 	padding: .5vh 0vh .5vh 0vh;
 	display: inline-block;
 }
@@ -136,4 +137,17 @@ svg .cls-7:hover {
 #infoBtn {
 	position: fixed;
 	left: 175px;
+}
+
+#resetBtn, #resetBtn:focus {
+  position: fixed;
+  right: 0px;
+  color: silver;
+  border: 1px solid silver;
+  background-color: transparent; }
+  #resetBtn:hover {
+    border: 1px solid silver;
+    outline: none;
+    background-color: silver;
+    color: black; 
 }

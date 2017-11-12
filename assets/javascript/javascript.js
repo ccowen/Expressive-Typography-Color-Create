@@ -4,6 +4,10 @@ $(document).ready(function() {
 		$(this).css("fill", "url(#Floral_Vines)"); 
 	});
 
+    $("#resetBtn").click(function() { 
+        $(".cls-7").css("fill", "transparent"); 
+    });
+
 });
 
 window.onload = function(){ 
