@@ -3,6 +3,13 @@
 <head>
 	<title>Expressive Typography</title>
 
+	<!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <!-- google fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
 	<!-- internal css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
@@ -13,7 +20,36 @@
 
 <body>
 
+	<!-- Trigger/Open The Modal -->
+	<button id="instructionsBtn" class="btn btn-default btn-lg">instructions</button>
+	<button id="infoBtn" class="btn btn-default btn-lg">info</button>
+
+	<!-- modal --> 
+	<div id="instructionsModal" class="modal-mycss">
+
+		<!-- Modal content -->
+		<div class="modal-content-mycss">
+		  <span class="close-mycss">&times;</span>
+		  <h2 class="modalHeader">expressive typography:<br>create</h2>
+		  <p id="modalText-mycss">You can color the text by passing your mouse over the image (clicks not needed).</p>
+		</div>
+
+	</div>
+
+	<!-- modal2 --> 
+	<div id="infoModal" class="modal-mycss">
+
+		<!-- Modal content -->
+		<div class="modal-content-mycss">
+		  <span class="close2-mycss">&times;</span>
+		  <h2 class="modalHeader">What does it mean?</h2>
+		  <p id="modalText-mycss">Expressive typography is an art of creating type that looks like what is means.<br><br>This example represents the word <span class="green">create</span> . You are coloring the word create, thus creating create. <br> The letters <span class="green">c r e a t e</span> also create the word create. </p>
+		</div>
+
+	</div>
+
 	<div id="createDiv">
+
 
 		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 577.78 474.2" id="createSvg">
 		    <defs>

@@ -1,7 +1,38 @@
+/*-------------------------------- global ---------------------------*/
 body {
 	text-align: center;
+	font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.green {
+    color: #42DCA3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: rgba(100, 100, 120, .9);
+  font-weight: 700;
+  margin: 0 0 35px;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+
+p {
+  font-size: 16px;
+  color: rgba(100, 100, 120, .7);
+  line-height: 1.5;
+  margin: 0 0 25px; }
+  @media (min-width: 768px) {
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin: 0 0 35px; } }
+
+/*--------------------------------- image -----------------------------*/
 #createDiv {
 	height: 98vh;
 	padding: .5vh 0vh .5vh 0vh;
@@ -18,4 +49,91 @@ svg .cls-7 {
 
 svg .cls-7:hover {
 	fill: url(#Floral_Vines);
+}
+
+/* --------------------------- modal ---------------------------- */
+/* The Modal (background) */
+.modal-mycss {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content-mycss {
+    background-color: #061610;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+    text-align: center!important;
+}
+
+/* The Close Button */
+.close-mycss,
+.close2-mycss {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-mycss:hover,
+.close-mycss:focus,
+.close2-mycss:hover,
+.close2-mycss:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#modalText-mycss {
+	color: white;
+	text-align: center;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+.modalHeader {
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* --- buttons--- */
+
+.btn {
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  border-radius: 0; }
+
+.btn-default {
+  color: #42DCA3;
+  border: 1px solid #42DCA3;
+  background-color: transparent; }
+  .btn-default:focus, .btn-default:hover {
+    color: black;
+    border: 1px solid #42DCA3;
+    outline: none;
+    background-color: #42DCA3; }
+
+#instructionsBtn {
+	position: fixed;
+	left: 0px;
+}
+
+#infoBtn {
+	position: fixed;
+	left: 175px;
 }
