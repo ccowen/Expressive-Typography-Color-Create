@@ -1,4 +1,4 @@
-# colorCreate
+# Create
 ## expressive typography for the word create
 
 Expressive typography is an art of creating type that looks like what is means.
