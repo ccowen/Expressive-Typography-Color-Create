@@ -8,4 +8,6 @@ The letters c r e a t e also create the word create.
 
 ## [demo](https://ccowen.github.io/Color-Quiz/)
 
-![Expressive Typography - Color Create](assets/colorCreateSnapshot.raw=true "Title")
+![Expressive Typography - Color Create](assets/images/colorCreateSnapshot.png?raw=true "Title")
+
+
